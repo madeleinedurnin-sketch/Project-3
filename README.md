@@ -1,29 +1,9 @@
 # Project 1: Group Research Plan
 **Course:** KIN 7518 Social Issues in Sport  
-**Due:** Monday, January 27, 2026 by 11:59 PM  
+**Due:** Friday, April 10, 2026 by 11:59 PM  
 **Submission:** Email to [yqian@lsu.edu](mailto:yqian@lsu.edu) — One member submits, **CC all group members**  
 **Format:** Markdown (.md) file  
-**File Naming:** `GROUPNAME_PLAN.md` (see group names below)
-
----
-
-## Group Names for File Naming
-Use your official group name exactly as shown:
-- `CursorPros_PLAN.md`
-- `CPN_PLAN.md`
-- `GeauxTigers_PLAN.md`
-- `TheMcGradys_PLAN.md`
-- `TSPS_PLAN.md`
-- `RWB_PLAN.md`
-- `PKB_PLAN.md`
-- `ReesesPuffs_PLAN.md`
-
----
-
-## Instructions
-Complete each section below as a group. This document should demonstrate that your team has a clear, defensible plan for Project 1. The instructor will provide feedback during W3 to help you refine your approach before the work session begins.
-
-> **Note:** This is a planning document, not a final report. Expectations are for *reasonable preliminary thinking*, not polished answers.
+**File Naming:** `CursorPros_PLAN.md`
 
 ---
 
