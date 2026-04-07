@@ -1,4 +1,4 @@
-# Project 1: Group Research Plan
+# Project 3: Group Research Plan
 **Course:** KIN 7518 Social Issues in Sport  
 **Due:** Friday, April 10, 2026 by 11:59 PM  
 **Submission:** Email to [yqian@lsu.edu](mailto:yqian@lsu.edu) — One member submits, **CC all group members**  
