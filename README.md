@@ -1,4 +1,5 @@
-# Project 3: Group Research Plan
+# TrumProject 3: Group Research Plan
+
 **Course:** KIN 7518 Social Issues in Sport
 **Due:** Friday, April 10, 2026 by 11:59 PM
 **Submission:** Email to [yqian@lsu.edu](mailto:yqian@lsu.edu) — One member submits, **CC all group members**
@@ -45,14 +46,15 @@ Who cares about this question? Why now? What's at stake for stakeholders (e.g., 
 
 Identify which dataset you are using and explain why.
 
-**Dataset Choice:** [ ] Clark-Reese (ARCC) / [ ] Fit-Mom Discourse
+**Dataset Choice: B50/Trump Discourse**
 
-**Justification:**
-[Why this dataset is appropriate for your RQ]
+ [Why this dataset is appropriate for your RQ]
 
 **Key files you plan to use:**
 
-- [List specific data files]
+- B50_INS_COMMENT.xlsx
+- B50_X_COMMENT.xlsx
+- B50_YT_COMMENT.xlsx
 
 ---
 
@@ -60,11 +62,13 @@ Identify which dataset you are using and explain why.
 
 For your main constructs, describe how you will measure or identify them in the data.
 
+
 | Construct                     | Operational Definition                                            | Data Source / Indicator                         |
 | ----------------------------- | ----------------------------------------------------------------- | ----------------------------------------------- |
 | [e.g., Skill-based discourse] | [e.g., Comments mentioning athletic performance, stats, gameplay] | [e.g., Keyword search in ARCC_INS_COMMENT.xlsx] |
 |                               |                                                                   |                                                 |
 |                               |                                                                   |                                                 |
+
 
 ---
 
@@ -72,11 +76,13 @@ For your main constructs, describe how you will measure or identify them in the 
 
 Outline the analytical approaches you plan to use. For each, explain how it addresses your RQ.
 
+
 | Analysis Type                      | Description                                             | RQ Addressed |
 | ---------------------------------- | ------------------------------------------------------- | ------------ |
 | [e.g., Keyword frequency analysis] | [e.g., Count occurrences of skill vs. appearance terms] | [RQ 1]       |
 |                                    |                                                         |              |
 |                                    |                                                         |              |
+
 
 ---
 
@@ -106,12 +112,14 @@ Address the following:
 
 Specify who is responsible for what. Titles are flexible, but responsibilities must be clear.
 
+
 | Role         | Group Member | Primary Responsibilities                                      |
 | ------------ | ------------ | ------------------------------------------------------------- |
-| Data Lead    | [Name]       | [e.g., Data cleaning, preprocessing, file management]         |
+| Data Lead    | Hailee       | [e.g., Data cleaning, preprocessing, file management]         |
 | Methods Lead | [Name]       | [e.g., Analysis design, tool implementation, documentation]   |
 | Theory Lead  | [Name]       | [e.g., Literature integration, RQ refinement, interpretation] |
-| [Other role] | [Name]       | [Responsibilities]                                            |
+|              |              |                                                               |
+
 
 ---
 
@@ -136,10 +144,10 @@ Why did you choose this visualization type? How does it clarify your argument or
 
 **Verification Methods:**How will you ensure your visualization accurately represents your data?
 
-- [ ] Spot-checked calculations against source data
-- [ ] Had groupmate review for accuracy
-- [ ] Verified percentages/totals add up correctly
-- [ ] Other: [specify]
+- Spot-checked calculations against source data
+- Had groupmate review for accuracy
+- Verified percentages/totals add up correctly
+- Other: [specify]
 
 **The Visualization:**
 Embed your visualization here (as an image) or provide a link to the file.
@@ -165,17 +173,14 @@ Which AI tools/IDEs did you use, and for what purpose?
 **Verification Methods:**How did you verify AI outputs were accurate and appropriate?
 
 - **Code Explanation:**
-
-  - [ ] I asked AI to explain what each line/section of code does
-  - [ ] I reviewed explanations and understand the logic
-  - [ ] N/A (didn't use code-generating AI)
+  - I asked AI to explain what each line/section of code does
+  - I reviewed explanations and understand the logic
+  - N/A (didn't use code-generating AI)
 - **Output Validation:**
-
-  - [ ] I cross-checked AI calculations against manual spot-checks (specify # of checks: ___)
-  - [ ] I verified outputs make logical sense given my data
-  - [ ] I compared AI results with what I know about my dataset
+  - I cross-checked AI calculations against manual spot-checks (specify # of checks: ___)
+  - I verified outputs make logical sense given my data
+  - I compared AI results with what I know about my dataset
 - **Iterative Refinement:**
-
   - Number of prompt iterations before getting usable output: ___
   - Key refinements made: [describe]
 
@@ -190,15 +195,15 @@ What did you learn from working with AI on this project? What did examining the 
 
 Before submitting, confirm:
 
-- [ ] All sections completed
-- [ ] RQs are specific, contextualized, and significance is justified
-- [ ] Dataset choice is confirmed
-- [ ] At least one construct is operationalized
-- [ ] Limitations and ethics are addressed honestly
-- [ ] All group members are assigned roles
-- [ ] Data visualization is included (Section 8)
-- [ ] Visualization includes verification methods
-- [ ] If AI tools were used, Section 9 is completed with verification documentation
+- All sections completed
+- RQs are specific, contextualized, and significance is justified
+- Dataset choice is confirmed
+- At least one construct is operationalized
+- Limitations and ethics are addressed honestly
+- All group members are assigned roles
+- Data visualization is included (Section 8)
+- Visualization includes verification methods
+- If AI tools were used, Section 9 is completed with verification documentation
 
 ---
 
@@ -209,3 +214,4 @@ Before submitting, confirm:
 - **Email to:** [yqian@lsu.edu](mailto:yqian@lsu.edu)
 - **CC:** All group members
 - **Deadline:** Monday, January 27, 2026 by 11:59 PM
+
