@@ -35,7 +35,8 @@ Identify which dataset you are using and explain why.
 
 **Dataset Choice: B50/Trump Discourse**
 
- [Why this dataset is appropriate for your RQ]
+These three data sets are the perfect fit for our research question, as they directly align with the core components of our study. As they all are related to Bryson DeChambeau’s “Break 50” series and Donald Trump’s guest appearance solely, we have eliminated the noise surrounding DeChambeau or Trump’s general social media presence. By using data from three platforms, Instagram, X, and YouTube, we have diversified the range of comments that can be found. This is due to the true nature of the platforms and how the culture behind who uses them interacts with the coverage of “Break 50." In short, these datasets provide both the raw text needed to see how people are reacting to the blending of sports and politics, as well as the structural metrics needed to see where and how strongly those reactions are resonating across three fundamentally different social ecosystems.
+
 
 **Key files you plan to use:**
 
