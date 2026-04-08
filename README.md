@@ -213,5 +213,5 @@ Before submitting, confirm:
 - **Visualization file name:** `GROUPNAME_VISUAL.[extension]` (e.g., `GeauxTigers_VISUAL.pdf`)
 - **Email to:** [yqian@lsu.edu](mailto:yqian@lsu.edu)
 - **CC:** All group members
-- **Deadline:** Monday, January 27, 2026 by 11:59 PM
+- **Deadline:** Friday, April 10th , 2026 by 11:59 PM
 
