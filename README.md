@@ -92,7 +92,14 @@ Address the following:
 - **Harm:** Could your analysis reinforce stereotypes or cause harm to groups discussed?
 - **Bias:** What biases might exist in your data or your interpretation?
 
-[Your response here]
+**Privacy:**
+In terms of privacy, this study relies solely on public data, specifically user-generated comments from publicly accessible posts on Instagram, X, and YouTube. However, these datasets contain identifiable metadata. To mitigate the risk of identifying specific individuals, the data will be treated confidentially during analysis. This means removing all usernames and personally identifiable markers.
+
+**Harm:**
+In terms of the potential for harm, the intersection of politics and sports, especially involving a polarizing figure like Donald Trump, naturally elicits heated, partisan, and sometimes toxic discourse. There is a risk that analyzing and presenting these comments could inadvertently amplify inflammatory political rhetoric or partisan vitriol present in the data. Generalizing the findings could reinforce stereotypes, such as making assumptions about the political ideologies of all golf enthusiasts or characterizing users of specific platforms grandiosely. To prevent this, the research must maintain strict academic objectivity, focusing on how audiences negotiate meaning and boundaries, rather than validating, judging, or giving an unfiltered platform to extreme sentiments.
+
+**Bias:**
+In terms of biases, there is a change for it to exist within both the data itself and its interpretation. Data-wise, the datasets only capture the sentiments of a highly engaged minority who felt strongly enough to leave a comment, leaving the reactions of the "silent majority" of viewers completely unknown. Additionally, the baseline audience skews towards the specific demographics of golf fans and Bryson DeChambeau subscribers, meaning the reactions are not representative of the general public. Furthermore, platform algorithms heavily bias what comments are seen or engaged with, often rewarding the most controversial or polarizing takes. Interpreting this data also carries the risk of researcher bias; because political comments are often subjective, sarcastic, or culturally nuanced, we must be careful not to project our own political leanings or assumptions onto the data during coding and thematic analysis.
 
 ---
 
