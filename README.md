@@ -16,6 +16,7 @@ For each research question, address all three components below. The goal is to s
 
 **The Question:**
 How do audiences across different social media platforms (YouTube, X, and Instagram) negotiate and react to the blending of sports entertainment and political messaging in the context of Donald Trump's appearance on Bryson DeChambeau's "Break 50" series?
+
 **The Context:**What phenomenon, debate, or gap does this question address? Connect to:
 
 - Current events, public discourse, or real-world observations
