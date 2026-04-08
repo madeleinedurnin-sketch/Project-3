@@ -15,7 +15,7 @@ For each research question, address all three components below. The goal is to s
 ### RQ 1
 
 **The Question:**
-[State your research question clearly and specifically]
+How do audiences across different social media platforms (YouTube, X, and Instagram) negotiate and react to the blending of sports entertainment and political messaging in the context of Donald Trump's appearance on Bryson DeChambeau's "Break 50" series?
 
 **The Context:**What phenomenon, debate, or gap does this question address? Connect to:
 
@@ -212,5 +212,5 @@ Before submitting, confirm:
 - **Visualization file name:** `GROUPNAME_VISUAL.[extension]` (e.g., `GeauxTigers_VISUAL.pdf`)
 - **Email to:** [yqian@lsu.edu](mailto:yqian@lsu.edu)
 - **CC:** All group members
-- **Deadline:** Monday, January 27, 2026 by 11:59 PM
+- **Deadline:** Friday, April 10th , 2026 by 11:59 PM
 
