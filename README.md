@@ -78,9 +78,11 @@ Outline the analytical approaches you plan to use. For each, explain how it addr
 
 Identify at least 2-3 limitations or challenges with your approach. Be honest—acknowledging limits is a strength, not a weakness.
 
-1. [Limitation 1]
-2. [Limitation 2]
-3. [Limitation 3]
+1. A significant limitation when analyzing user-generated content, especially at the intersection of sports and politics, is the difficulty of deciphering user intent. Comment sections are deeply embedded in internet culture and niche inside jokes. Whether you are employing automated natural language processing (NLP) for sentiment analysis or conducting manual human coding, it is notoriously difficult to accurately classify comments that use sports slang to indirectly make a political point, or vice versa. This inherent ambiguity can lead to miscategorization of the data, potentially skewing your findings regarding how boundaries are supposedly being "negotiated."
+
+2. While cross-platform analysis is a strength of the study, it also presents a major structural challenge. You are not comparing "apples to apples." X fosters argumentative, text-heavy, real-time political discourse; Instagram is visual-first, resulting in reactions that often focus more on aesthetics or short-form emojis; and YouTube’s structure encourages longer-form, detailed essay-style replies. Developing a unified, standardized coding framework to accurately measure or compare "negotiation" across these three totally different social architectures is incredibly complex. A metric indicating deep engagement on X might mean something entirely different on Instagram, risking a misinterpretation of comparative behavior.
+
+3. This methodology relies on datasets that capture a static snapshot of comments, representing the audience's immediate reactions at the time the data was scraped. However, online discourse, especially surrounding a polarizing political figure, is highly fluid. The way audiences negotiate the blending of sports and politics in this video might shift as the real-world political news cycle progresses or as the video gets shared in new contexts in the future. By relying on a fixed, historical dataset, the approach cannot capture how public perception evolves over time, restricting your findings to an immediate reactionary window rather than a long-term understanding of audience reception.
 
 ---
 
