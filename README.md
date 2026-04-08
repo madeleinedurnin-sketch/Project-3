@@ -111,7 +111,7 @@ Specify who is responsible for what. Titles are flexible, but responsibilities m
 | Role         | Group Member | Primary Responsibilities                                      |
 | ------------ | ------------ | ------------------------------------------------------------- |
 | Data Lead    | Hailee       | [e.g., Data cleaning, preprocessing, file management]         |
-| Methods Lead | Madeline       | [e.g., Analysis design, tool implementation, documentation]   |
+| Methods Lead | Madeleine       | [e.g., Analysis design, tool implementation, documentation]   |
 | Theory Lead  | Kaylee       | [e.g., Literature integration, RQ refinement, interpretation] |
 |              |              |                                                               |
 
