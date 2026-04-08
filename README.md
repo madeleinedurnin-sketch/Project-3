@@ -1,4 +1,4 @@
-# TrumProject 3: Group Research Plan
+# TrumpProject 3: Group Research Plan
 
 **Course:** KIN 7518 Social Issues in Sport
 **Due:** Friday, April 10, 2026 by 11:59 PM
@@ -168,16 +168,15 @@ If you used AI tools (Antigravity, Cursor, ChatGPT, etc.) for any part of this p
 **Tools Used:**
 Which AI tools/IDEs did you use, and for what purpose?
 
-[Your response here]
+We utilized Cursor and GitHub for Project 3. We used these to help develop and sort through our data and to store all of our work on the GitHub Repo.
 
 **Verification Methods:**How did you verify AI outputs were accurate and appropriate?
 
 - **Code Explanation:**
   - I asked AI to explain what each line/section of code does
   - I reviewed explanations and understand the logic
-  - N/A (didn't use code-generating AI)
+  - I asked AI to download code and save for review if needed.
 - **Output Validation:**
-  - I cross-checked AI calculations against manual spot-checks (specify # of checks: ___)
   - I verified outputs make logical sense given my data
   - I compared AI results with what I know about my dataset
 - **Iterative Refinement:**
