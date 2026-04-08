@@ -29,19 +29,6 @@ Who cares about this question? Why now? What's at stake for stakeholders (e.g., 
 
 ---
 
-### RQ 2 (if applicable)
-
-**The Question:**
-[State your research question clearly and specifically]
-
-**The Context:**
-[Your response here]
-
-**Why It Matters:**
-[Your response here]
-
----
-
 ## 2. Dataset Selection & Justification
 
 Identify which dataset you are using and explain why.
