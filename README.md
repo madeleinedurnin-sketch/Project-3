@@ -25,7 +25,7 @@ How do audiences across different social media platforms (YouTube, X, and Instag
 **Why It Matters:**
 Who cares about this question? Why now? What's at stake for stakeholders (e.g., athletes, fans, media, organizations, policymakers, researchers)?
 
-[Your response here]
+Especially in the United States, the country is becoming increasingly partisian in its' political views. Politics are being treated like something we should not talk about as people have become more violent or outspoken in how they display their political beliefs. With the continued development of social media and technology, politicians are able to be more visibile and integrated into media we create. Poeple often debate if sport should be mutually exclusive from politics or if there is a way for them to have a positive relationship. It is important to look at the viability of integrating politics into sport and whether that is something that we can keep moving forward with to a certain extent or if the audience does not agree with putting them together.This question helps us take a closer look into this as people are extremely outspoken on both sides when discussing Donald Trump as a politician so it can give us some authentic insight into how we can either continue to develop this relationship and potentially profit or how it may lead to stunted growth for organizations.
 
 ---
 
