@@ -67,9 +67,9 @@ Outline the analytical approaches you plan to use. For each, explain how it addr
 
 | Analysis Type                      | Description                                             | RQ Addressed |
 | ---------------------------------- | ------------------------------------------------------- | ------------ |
-| [e.g., Keyword frequency analysis] | [e.g., Count occurrences of skill vs. appearance terms] | [RQ 1]       |
-|                                    |                                                         |              |
-|                                    |                                                         |              |
+| Framing pattern comparison analysis | Compare prevalence of sports/performance, politics/ideology, and blended frames across YouTube, X, and Instagram | [RQ 1] |
+| Stance-by-frame association analysis | Test whether political stance is associated with framing choice (e.g., whether pro/anti comments are more likely to be blended vs single-frame) within and across platforms. | [RQ 1] |
+| Engagement differential analysis | Compare normalized engagement (likes/replies/retweets/views where available) between blended and non-blended comments, and by stance category | [RQ1] |
 
 
 ---
