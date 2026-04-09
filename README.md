@@ -21,9 +21,9 @@ How do audiences across different social media platforms (YouTube, X, and Instag
 
 - The intersection of sports and politics has become increasingly visible in contemporary media, especially as social media allows public figures to blur the boundaries between entertainment, athletics, and political discourse. In the United States, rising political polarization has heightened sensitivity to political messaging in spaces traditionally viewed as neutral, including sports.
 
-This phenomenon can be understood through Framing Theory, which explains how the presentation of content shapes audience interpretation. Audiences actively negotiate meaning, interpreting content through a sports lens, a political lens, or a combination of both. Additionally, Public Sphere Theory highlights how social media functions as a space for public debate and opinion formation.
+-This phenomenon can be understood through Framing Theory, which explains how the presentation of content shapes audience interpretation. Audiences actively negotiate meaning, interpreting content through a sports lens, a political lens, or a combination of both. Additionally, Public Sphere Theory highlights how social media functions as a space for public debate and opinion formation.
 
-Donald Trump’s appearance on Bryson DeChambeau’s “Break 50” series provides a unique case to examine how audiences respond when sports and politics are intentionally blended, particularly across different social media platforms
+-Donald Trump’s appearance on Bryson DeChambeau’s “Break 50” series provides a unique case to examine how audiences respond when sports and politics are intentionally blended, particularly across different social media platforms
 
 **Why It Matters:**
 Who cares about this question? Why now? What's at stake for stakeholders (e.g., athletes, fans, media, organizations, policymakers, researchers)?
