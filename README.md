@@ -127,34 +127,33 @@ Create at least ONE data visualization that addresses your research question(s).
 **Primary Goal:**
 What story does your visualization tell? What specific question does it answer?
 
-[Your response here]
+Each visualization represents a different section of our analysis to outline how the audience reacts to political messaging in sport media. 
 
 **Visualization Description:**
 Describe what type of chart/graph you're creating and what it will show. (e.g., "Bar chart comparing frequency of X vs. Y," "Line graph showing change over time," "Word cloud of most common themes")
 
-[Your response here]
+We have 2 box plots to demonstrate the engagement around blended comments and what effect having an explicit stance has on engagement. We also have three bar graphs that examines comment framing as well as platform comparison.
 
 **Design Rationale:**
 Why did you choose this visualization type? How does it clarify your argument or make your data more understandable?
 
-[Your response here]
+Bar graphs and box plots are great at showing distrubutions in data when comparing mutiple platforms and variables. The use of Z-scores and Chi-Square tests help quantify the distrubutions with the visualizatiosn creating a simple way to envision the data even if the statistics get complicated. Furthermore, breaking it down by section helps closely look and better engage with the dataset.
 
 **Verification Methods:**How will you ensure your visualization accurately represents your data?
 
 - Spot-checked calculations against source data
-- Had groupmate review for accuracy
 - Verified percentages/totals add up correctly
-- Other: [specify]
+- Asked Cursor to make multiple iterations and reviews for style and accuracy fixes. The visualizations underwent 3-5 iterations each.
 
 **The Visualization:**
 Embed your visualization here (as an image) or provide a link to the file.
 
-[Insert visualization or link]
+Visualizations included in separate 'Visualizations' file in the repository.
 
 **Brief Interpretation (2-3 sentences):**
 What does this visualization show? What pattern or insight does it reveal?
 
-[Your response here]
+Each visualization as well as the combined image help us figure out the audience reaction to political messaging in sport media. Specifically it revaeals that blended comments perform better in engagement instead of ones that are explicitly political. Furthermore, different platforms are more political. These comments are not surrounding the video itself but reveal what the public thinks about blending politics and sport.
 
 ---
 
@@ -177,37 +176,13 @@ We utilized Cursor and GitHub for Project 3. We used these to help develop and s
   - I verified outputs make logical sense given my data
   - I compared AI results with what I know about my dataset
 - **Iterative Refinement:**
-  - Number of prompt iterations before getting usable output: ___
-  - Key refinements made: [describe]
+  - Number of prompt iterations before getting usable output: 4
+  - Key refinements made: cleaned visualizations, clarified social context of comments repeatedly, asked if there were questions
 
 **Learning Reflection:**
 What did you learn from working with AI on this project? What did examining the AI-generated code/outputs teach you?
 
-[Your response here]
+We learned more how to communicate across different platforms and build collaborative tools for groups to use. We also learned that it takes multiple tries to get AI to produce the desired outcome.
 
 ---
-
-## Submission Checklist
-
-Before submitting, confirm:
-
-- All sections completed
-- RQs are specific, contextualized, and significance is justified
-- Dataset choice is confirmed
-- At least one construct is operationalized
-- Limitations and ethics are addressed honestly
-- All group members are assigned roles
-- Data visualization is included (Section 8)
-- Visualization includes verification methods
-- If AI tools were used, Section 9 is completed with verification documentation
-
----
-
-**Submission Reminder:**
-
-- **File name:** `GROUPNAME_PLAN.md` (e.g., `GeauxTigers_PLAN.md`)
-- **Visualization file name:** `GROUPNAME_VISUAL.[extension]` (e.g., `GeauxTigers_VISUAL.pdf`)
-- **Email to:** [yqian@lsu.edu](mailto:yqian@lsu.edu)
-- **CC:** All group members
-- **Deadline:** Friday, April 10th , 2026 by 11:59 PM
 
