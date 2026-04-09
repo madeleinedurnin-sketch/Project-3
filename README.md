@@ -38,7 +38,7 @@ Identify which dataset you are using and explain why.
 
 **Dataset Choice: B50/Trump Discourse**
 
-These three data sets are the perfect fit for our research question, as they directly align with the core components of our study. As they all are related to Bryson DeChambeau’s “Break 50” series and Donald Trump’s guest appearance solely, we have eliminated the noise surrounding DeChambeau or Trump’s general social media presence. By using data from three platforms, Instagram, X, and YouTube, we have diversified the range of comments that can be found. This is due to the true nature of the platforms and how the culture behind who uses them interacts with the coverage of “Break 50." In short, these datasets provide both the raw text needed to see how people are reacting to the blending of sports and politics, as well as the structural metrics needed to see where and how strongly those reactions are resonating across three fundamentally different social ecosystems.
+These three data sets are perfect for our research question, as they directly align with the core components of our study. As they all are related to Bryson DeChambeau’s “Break 50” series and Donald Trump’s guest appearance solely, we have eliminated the noise surrounding DeChambeau or Trump’s general social media presence. By using data from three platforms, Instagram, X, and YouTube, we have diversified the range of comments that can be found. This is due to the different user behaviors and communication styles across platforms and how the culture behind who uses them interacts with the coverage of “Break 50." In short, these datasets provide both the raw text needed to see how people are reacting to the blending of sports and politics, as well as the structural metrics needed to see where and how strongly those reactions are resonating across three fundamentally different social ecosystems.This allows for direct comparison of how platform-specific cultures influence audience reactions.
 
 
 **Key files you plan to use:**
@@ -56,9 +56,9 @@ For your main constructs, describe how you will measure or identify them in the 
 
 | Construct                     | Operational Definition                                            | Data Source / Indicator                         |
 | ----------------------------- | ----------------------------------------------------------------- | ----------------------------------------------- |
-| Platform-Specific political stance expression  | Direct and explicit political positioning in the comments | Text coding of text in [B50_INS_COMMENT.xlsx], contents in [B50_X_COMMENT.xlsx], and text in [B50_YT_COMMENT.xlsx]; keyword dictionaries (e.g., “MAGA,” “rapist,” “president,” “former president,” party labels) plus manual validation sample. |
+| Platform-Specific political stance expression  |Explicit political positioning within comments | Text coding of text in [B50_INS_COMMENT.xlsx], contents in [B50_X_COMMENT.xlsx], and text in [B50_YT_COMMENT.xlsx]; keyword dictionaries (e.g., “MAGA,” “rapist,” “president,” “former president,” party labels) plus manual validation sample. |
 | Sports entertainment vs. political framing | Primary thematic frame used by commenters when interpreting the content | Content coding of same text fields using frame categories: sports/performance (e.g., “break 47,” gameplay skill), politics/ideology (candidate evaluations, ideology), blended (sports and political references in one comment). Optional support fields: hashtag in [B50_X_COMMENT.xlsx], source in [B50_YT_COMMENT.xlsx] |
-| Engagement intensity of political sport reactions | Magnitude of audience reaction to comments that blend sports and politics compared with comments that do not blend | Engagement metrics linked to coded comments: likes and comment_re in [B50_INS_COMMENT.xlsx]; likes, reply counts, retweets count, reference count, Comment views in [B50_X_COMMENT.xlsx]; likes and comment_re in [B50_YT_COMMENT.xlsx] Compute platform-normalized averages/medians by frame and stance category. |
+| Engagement intensity of political sport reactions | Magnitude of audience reaction to comments that blend sports and politics compared with comments that do not blend | Engagement metrics linked to coded comments: likes and comment_re in [B50_INS_COMMENT.xlsx]; likes, reply counts, retweets count, reference count, Comment views in [B50_X_COMMENT.xlsx]; likes and comment_re in [B50_YT_COMMENT.xlsx] Compute platform-normalized averages/medians by frame and stance category.Engagement will be normalized across platforms to ensure comparability |
 
 
 ---
@@ -74,7 +74,7 @@ Outline the analytical approaches you plan to use. For each, explain how it addr
 | Stance-by-frame association analysis | Test whether political stance is associated with framing choice (e.g., whether pro/anti comments are more likely to be blended vs single-frame) within and across platforms. | [RQ 1] |
 | Engagement differential analysis | Compare normalized engagement (likes/replies/retweets/views where available) between blended and non-blended comments, and by stance category | [RQ1] |
 
-
+These analyses allow us to compare how audiences frame content, express political stance, and engage with blended sports-political messaging across platforms.
 ---
 
 ## 5. Limitations & Potential Issues
@@ -86,7 +86,7 @@ Identify at least 2-3 limitations or challenges with your approach. Be honest—
 2. While cross-platform analysis is a strength of the study, it also presents a major structural challenge. You are not comparing "apples to apples." X fosters argumentative, text-heavy, real-time political discourse; Instagram is visual-first, resulting in reactions that often focus more on aesthetics or short-form emojis; and YouTube’s structure encourages longer-form, detailed essay-style replies. Developing a unified, standardized coding framework to accurately measure or compare "negotiation" across these three totally different social architectures is incredibly complex. A metric indicating deep engagement on X might mean something entirely different on Instagram, risking a misinterpretation of comparative behavior.
 
 3. This methodology relies on datasets that capture a static snapshot of comments, representing the audience's immediate reactions at the time the data was scraped. However, online discourse, especially surrounding a polarizing political figure, is highly fluid. The way audiences negotiate the blending of sports and politics in this video might shift as the real-world political news cycle progresses or as the video gets shared in new contexts in the future. By relying on a fixed, historical dataset, the approach cannot capture how public perception evolves over time, restricting your findings to an immediate reactionary window rather than a long-term understanding of audience reception.
-
+These limitations should be considered when interpreting results, particularly when making cross-platform comparisons or broader generalizations.
 ---
 
 ## 6. Ethical Considerations
@@ -104,7 +104,7 @@ In terms of privacy, this study relies solely on public data, specifically user-
 In terms of the potential for harm, the intersection of politics and sports, especially involving a polarizing figure like Donald Trump, naturally elicits heated, partisan, and sometimes toxic discourse. There is a risk that analyzing and presenting these comments could inadvertently amplify inflammatory political rhetoric or partisan vitriol present in the data. Generalizing the findings could reinforce stereotypes, such as making assumptions about the political ideologies of all golf enthusiasts or characterizing users of specific platforms grandiosely. To prevent this, the research must maintain strict academic objectivity, focusing on how audiences negotiate meaning and boundaries, rather than validating, judging, or giving an unfiltered platform to extreme sentiments.
 
 **Bias:**
-In terms of biases, there is a change for it to exist within both the data itself and its interpretation. Data-wise, the datasets only capture the sentiments of a highly engaged minority who felt strongly enough to leave a comment, leaving the reactions of the "silent majority" of viewers completely unknown. Additionally, the baseline audience skews towards the specific demographics of golf fans and Bryson DeChambeau subscribers, meaning the reactions are not representative of the general public. Furthermore, platform algorithms heavily bias what comments are seen or engaged with, often rewarding the most controversial or polarizing takes. Interpreting this data also carries the risk of researcher bias; because political comments are often subjective, sarcastic, or culturally nuanced, we must be careful not to project our own political leanings or assumptions onto the data during coding and thematic analysis.
+In terms of biases, there is a change for it to exist within both the data itself and its interpretation. Data-wise, the datasets only capture the sentiments of a highly engaged minority who felt strongly enough to leave a comment, leaving the reactions of the "silent majority" of viewers completely unknown. Additionally, the baseline audience skews towards the specific demographics of golf fans and Bryson DeChambeau subscribers, meaning the reactions are not representative of the general public. Furthermore, platform algorithms heavily bias what comments are seen or engaged with, often rewarding the most controversial or polarizing takes. Interpreting this data also carries the risk of researcher bias; because political comments are often subjective, sarcastic, or culturally nuanced, we must be careful not to project our own political leanings or assumptions onto the data during coding and thematic analysis. Researchers must remain aware of their own biases and ensure interpretations are grounded in the data rather than personal perspectives.
 
 ---
 
@@ -140,7 +140,7 @@ We have 2 box plots to demonstrate the engagement around blended comments and wh
 **Design Rationale:**
 Why did you choose this visualization type? How does it clarify your argument or make your data more understandable?
 
-Bar graphs and box plots are great at showing distrubutions in data when comparing mutiple platforms and variables. The use of Z-scores and Chi-Square tests help quantify the distrubutions with the visualizatiosn creating a simple way to envision the data even if the statistics get complicated. Furthermore, breaking it down by section helps closely look and better engage with the dataset.
+Bar graphs and box plots effectively show distributions and comparisons across platforms. in data when comparing mutiple platforms and variables. The use of Z-scores and Chi-Square tests help quantify the distrubutions with the visualizatiosn creating a simple way to envision the data even if the statistics get complicated. These visualizations make complex statistical patterns easier to interpret. Furthermore, breaking it down by section helps closely look and better engage with the dataset. 
 
 **Verification Methods:**How will you ensure your visualization accurately represents your data?
 
@@ -185,7 +185,7 @@ We utilized Cursor and GitHub for Project 3. We used these to help develop and s
 **Learning Reflection:**
 What did you learn from working with AI on this project? What did examining the AI-generated code/outputs teach you?
 
-We learned more how to communicate across different platforms and build collaborative tools for groups to use. We also learned that it takes multiple tries to get AI to produce the desired outcome.
+We learned more how to communicate across different platforms and build collaborative tools for groups to use. We also learned that it takes multiple tries to get AI to produce the desired outcome.This process highlighted that while AI is a valuable analytical tool, human oversight is essential for ensuring accuracy and meaningful interpretation.
 
 ---
 
