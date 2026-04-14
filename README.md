@@ -1,191 +1,143 @@
-# TrumpProject 3: Group Research Plan
+# Project 3: Group Research Plan
 
 **Course:** KIN 7518 Social Issues in Sport
-**Due:** Friday, April 10, 2026 by 11:59 PM
-**Submission:** Email to [yqian@lsu.edu](mailto:yqian@lsu.edu) — One member submits, **CC all group members**
-**Format:** Markdown (.md) file
-**File Naming:** `CursorPros_PLAN.md`
+**Group:** CursorPros (Hailee Hernandez, Madeleine Durnin, Kaylee Hooper)
+**Submitted:** April 9, 2026
 
 ---
 
-## 1. Research Questions & Significance
+## Repository Structure
 
-For each research question, address all three components below. The goal is to show the logical connection between the phenomenon you're investigating, the question you're asking, and why it matters.
+- `README.md` — this plan
+- `Python Script/run_b50_analysis.py` — main analysis pipeline
+- `Python Script/generate_b50_figures.py` — visualization generation
+- `Visualizations/` — six figures referenced in Section 8 (stance × platform, frame × platform, stance-frame association, blended vs. non-blended engagement, engagement by stance, integrated findings)
+- `AI Verification/Comment_Selection_and_Analysis_Decisions.md` — coding decisions log
+- `AI Verification/Session_Transcript.md` — full Cursor session transcript
 
-### RQ 1
+The raw `B50_INS_COMMENT.xlsx`, `B50_X_COMMENT.xlsx`, and `B50_YT_COMMENT.xlsx` files are not committed to this repository.
 
-**The Question:**
-How do audiences across different social media platforms (YouTube, X, and Instagram) negotiate and react to the blending of sports entertainment and political messaging in the context of Donald Trump's appearance on Bryson DeChambeau's "Break 50" series?
+---
 
-**The Context:**What phenomenon, debate, or gap does this question address? Connect to:
+## 1. Research Question
 
- The intersection of sports and politics has become increasingly visible in contemporary media, especially as social media allows public figures to blur the boundaries between entertainment, athletics, and political discourse. In the United States, rising political polarization has heightened sensitivity to political messaging in spaces traditionally viewed as neutral, including sports.
+How do audiences across YouTube, X, and Instagram negotiate and react to the blending of sports entertainment and political messaging in the context of Donald Trump's appearance on Bryson DeChambeau's "Break 50" series?
 
-This phenomenon can be understood through Framing Theory, which explains how the presentation of content shapes audience interpretation. Audiences actively negotiate meaning, interpreting content through a sports lens, a political lens, or a combination of both. Additionally, Public Sphere Theory highlights how social media functions as a space for public debate and opinion formation.
+### Context
 
-Donald Trump’s appearance on Bryson DeChambeau’s “Break 50” series provides a unique case to examine how audiences respond when sports and politics are intentionally blended, particularly across different social media platforms
+The intersection of sports and politics has become increasingly visible in contemporary media, especially as social media allows public figures to blur the boundaries between entertainment, athletics, and political discourse. In the United States, rising political polarization has heightened sensitivity to political messaging in spaces traditionally viewed as neutral, including sports.
 
-**Why It Matters:**
-Who cares about this question? Why now? What's at stake for stakeholders (e.g., athletes, fans, media, organizations, policymakers, researchers)?
+This phenomenon can be understood through Framing Theory, which explains how the presentation of content shapes audience interpretation. Audiences actively negotiate meaning, interpreting content through a sports lens, a political lens, or a combination of both. Public Sphere Theory adds that social media functions as a space for public debate and opinion formation. Donald Trump's appearance on Bryson DeChambeau's "Break 50" series provides a unique case to examine how audiences respond when sports and politics are intentionally blended, particularly across different social media platforms.
 
-In the United States, the country is becoming increasingly partisian in its' political views. Politics are being treated like something we should not talk about as people have become more violent or outspoken in how they display their political beliefs. With the continued development of social media and technology, politicians are able to be more visibile and integrated into media we create. Poeple often debate if sport should be mutually exclusive from politics or if there is a way for them to have a positive relationship. It is important to look at the viability of integrating politics into sport and whether that is something that we can keep moving forward with to a certain extent or if the audience does not agree with putting them together.This question helps us take a closer look into this as people are extremely outspoken on both sides when discussing Donald Trump as a politician so it can give us some authentic insight into how we can either continue to develop this relationship and potentially profit or how it may lead to stunted growth for organizations.
+### Why It Matters
+
+The United States is becoming increasingly partisan in its political views, and politics is being treated as something not to be discussed in mixed company as people have grown more outspoken (and at times hostile) about their political beliefs. With the continued integration of social media into everyday life, politicians are more visible in the media that fans and athletes create. People often debate whether sport should be kept separate from politics, or whether the two can have a productive relationship. This question helps us examine that boundary using a case where audiences are extremely outspoken on both sides, providing authentic insight into how sport-political integration is received and what that reception means for athletes and organizations weighing similar collaborations.
 
 ---
 
 ## 2. Dataset Selection & Justification
 
-Identify which dataset you are using and explain why.
+**Dataset Choice:** B50 / Trump Discourse
 
-**Dataset Choice: B50/Trump Discourse**
+These three datasets are well aligned with the research question. Because all three are tied to Bryson DeChambeau's "Break 50" series and Donald Trump's guest appearance specifically, they isolate audience reaction to a single sport-political moment rather than to either figure's broader social media presence. Using data from three platforms (Instagram, X, YouTube) diversifies the comment styles available because of the different user behaviors and platform cultures involved. Together, the datasets provide both the raw text needed to see how people are reacting to the blending of sports and politics and the structural metrics needed to see where and how strongly those reactions are resonating across three fundamentally different social ecosystems. This allows direct comparison of how platform-specific cultures influence audience reactions.
 
-These three data sets are perfect for our research question, as they directly align with the core components of our study. As they all are related to Bryson DeChambeau’s “Break 50” series and Donald Trump’s guest appearance solely, we have eliminated the noise surrounding DeChambeau or Trump’s general social media presence. By using data from three platforms, Instagram, X, and YouTube, we have diversified the range of comments that can be found. This is due to the different user behaviors and communication styles across platforms and how the culture behind who uses them interacts with the coverage of “Break 50." In short, these datasets provide both the raw text needed to see how people are reacting to the blending of sports and politics, as well as the structural metrics needed to see where and how strongly those reactions are resonating across three fundamentally different social ecosystems.This allows for direct comparison of how platform-specific cultures influence audience reactions.
+**Files:**
 
-
-**Key files you plan to use:**
-
-- B50_INS_COMMENT.xlsx
-- B50_X_COMMENT.xlsx
-- B50_YT_COMMENT.xlsx
+- `B50_INS_COMMENT.xlsx`
+- `B50_X_COMMENT.xlsx`
+- `B50_YT_COMMENT.xlsx`
 
 ---
 
-## 3. Preliminary Variable Operationalization
+## 3. Variable Operationalization
 
-For your main constructs, describe how you will measure or identify them in the data.
-
-
-| Construct                     | Operational Definition                                            | Data Source / Indicator                         |
-| ----------------------------- | ----------------------------------------------------------------- | ----------------------------------------------- |
-| Platform-Specific political stance expression  |Explicit political positioning within comments | Text coding of text in [B50_INS_COMMENT.xlsx], contents in [B50_X_COMMENT.xlsx], and text in [B50_YT_COMMENT.xlsx]; keyword dictionaries (e.g., “MAGA,” “rapist,” “president,” “former president,” party labels) plus manual validation sample. |
-| Sports entertainment vs. political framing | Primary thematic frame used by commenters when interpreting the content | Content coding of same text fields using frame categories: sports/performance (e.g., “break 47,” gameplay skill), politics/ideology (candidate evaluations, ideology), blended (sports and political references in one comment). Optional support fields: hashtag in [B50_X_COMMENT.xlsx], source in [B50_YT_COMMENT.xlsx] |
-| Engagement intensity of political sport reactions | Magnitude of audience reaction to comments that blend sports and politics compared with comments that do not blend | Engagement metrics linked to coded comments: likes and comment_re in [B50_INS_COMMENT.xlsx]; likes, reply counts, retweets count, reference count, Comment views in [B50_X_COMMENT.xlsx]; likes and comment_re in [B50_YT_COMMENT.xlsx] Compute platform-normalized averages/medians by frame and stance category.Engagement will be normalized across platforms to ensure comparability |
-
+| Construct | Operational Definition | Data Source / Indicator |
+| --- | --- | --- |
+| Platform-specific political stance expression | Explicit political positioning within comments | Text coding of `text` (INS, YT) and `contents` (X); keyword dictionaries (e.g., "MAGA," "rapist," "president," "former president," party labels) plus a manual validation sample. |
+| Sports-entertainment vs. political framing | Primary thematic frame used by commenters when interpreting the content | Content coding of the same text fields using frame categories: sports/performance (e.g., "break 47," gameplay skill), politics/ideology (candidate evaluations, ideology), and blended (sports and political references in one comment). Optional support fields: `hashtag` in `B50_X_COMMENT.xlsx`, `source` in `B50_YT_COMMENT.xlsx`. |
+| Engagement intensity of political-sport reactions | Magnitude of audience reaction to comments that blend sports and politics compared with comments that do not | Engagement metrics linked to coded comments: `likes` and `comment_re` in `B50_INS_COMMENT.xlsx`; `likes`, reply counts, retweets count, reference count, and comment views in `B50_X_COMMENT.xlsx`; `likes` and `comment_re` in `B50_YT_COMMENT.xlsx`. Compute platform-normalized averages and medians by frame and stance category. Engagement will be normalized across platforms to ensure comparability. |
 
 ---
 
 ## 4. Proposed Analyses
 
-Outline the analytical approaches you plan to use. For each, explain how it addresses your RQ.
-
-
-| Analysis Type                      | Description                                             | RQ Addressed |
-| ---------------------------------- | ------------------------------------------------------- | ------------ |
-| Framing pattern comparison analysis | Compare prevalence of sports/performance, politics/ideology, and blended frames across YouTube, X, and Instagram | [RQ 1] |
-| Stance-by-frame association analysis | Test whether political stance is associated with framing choice (e.g., whether pro/anti comments are more likely to be blended vs single-frame) within and across platforms. | [RQ 1] |
-| Engagement differential analysis | Compare normalized engagement (likes/replies/retweets/views where available) between blended and non-blended comments, and by stance category | [RQ1] |
+| Analysis Type | Description | RQ |
+| --- | --- | --- |
+| Framing pattern comparison | Compare prevalence of sports/performance, politics/ideology, and blended frames across YouTube, X, and Instagram | RQ 1 |
+| Stance-by-frame association | Test whether political stance is associated with framing choice (e.g., whether pro/anti comments are more likely to be blended vs. single-frame) within and across platforms | RQ 1 |
+| Engagement differential analysis | Compare normalized engagement (likes, replies, retweets, views where available) between blended and non-blended comments, and by stance category | RQ 1 |
 
 These analyses allow us to compare how audiences frame content, express political stance, and engage with blended sports-political messaging across platforms.
+
 ---
 
 ## 5. Limitations & Potential Issues
 
-Identify at least 2-3 limitations or challenges with your approach. Be honest—acknowledging limits is a strength, not a weakness.
+1. **Deciphering user intent.** Comment sections are deeply embedded in internet culture and niche inside jokes, and it is difficult to accurately classify comments that use sports slang to make a political point (or vice versa) whether the coding is automated or manual. This ambiguity can lead to miscategorization of the data, potentially skewing findings about how boundaries are being negotiated.
 
-1. A significant limitation when analyzing user-generated content, especially at the intersection of sports and politics, is the difficulty of deciphering user intent. Comment sections are deeply embedded in internet culture and niche inside jokes. Whether you are employing automated natural language processing (NLP) for sentiment analysis or conducting manual human coding, it is notoriously difficult to accurately classify comments that use sports slang to indirectly make a political point, or vice versa. This inherent ambiguity can lead to miscategorization of the data, potentially skewing your findings regarding how boundaries are supposedly being "negotiated."
+2. **Cross-platform comparability.** Cross-platform analysis is a strength of the study, but it is not an apples-to-apples comparison. X fosters argumentative, text-heavy, real-time political discourse; Instagram is visual-first and tends toward aesthetic reactions and short-form emojis; YouTube's structure encourages longer, essay-style replies. Developing a unified coding framework that accurately measures "negotiation" across these architectures is complex, and a metric indicating deep engagement on X may mean something quite different on Instagram.
 
-2. While cross-platform analysis is a strength of the study, it also presents a major structural challenge. You are not comparing "apples to apples." X fosters argumentative, text-heavy, real-time political discourse; Instagram is visual-first, resulting in reactions that often focus more on aesthetics or short-form emojis; and YouTube’s structure encourages longer-form, detailed essay-style replies. Developing a unified, standardized coding framework to accurately measure or compare "negotiation" across these three totally different social architectures is incredibly complex. A metric indicating deep engagement on X might mean something entirely different on Instagram, risking a misinterpretation of comparative behavior.
+3. **Static snapshot.** The datasets capture audience reactions at scrape time. Online discourse around a polarizing political figure is highly fluid, and the way audiences negotiate the blending of sports and politics may shift as the political news cycle progresses or as the video is reshared in new contexts. Relying on a fixed dataset means the approach cannot capture how public perception evolves over time, restricting findings to an immediate reactionary window rather than a long-term understanding of audience reception.
 
-3. This methodology relies on datasets that capture a static snapshot of comments, representing the audience's immediate reactions at the time the data was scraped. However, online discourse, especially surrounding a polarizing political figure, is highly fluid. The way audiences negotiate the blending of sports and politics in this video might shift as the real-world political news cycle progresses or as the video gets shared in new contexts in the future. By relying on a fixed, historical dataset, the approach cannot capture how public perception evolves over time, restricting your findings to an immediate reactionary window rather than a long-term understanding of audience reception.
 These limitations should be considered when interpreting results, particularly when making cross-platform comparisons or broader generalizations.
+
 ---
 
 ## 6. Ethical Considerations
 
-Address the following:
+**Privacy.** This study relies on public data: user-generated comments from publicly accessible posts on Instagram, X, and YouTube. The datasets contain identifiable metadata, however, and to mitigate the risk of identifying specific individuals the data will be treated confidentially during analysis, with usernames and personally identifiable markers removed.
 
-- **Privacy:** Are you analyzing public or private data? Any risks of identifying individuals?
-- **Harm:** Could your analysis reinforce stereotypes or cause harm to groups discussed?
-- **Bias:** What biases might exist in your data or your interpretation?
+**Harm.** The intersection of politics and sport, especially involving a polarizing figure like Donald Trump, naturally elicits heated, partisan, and sometimes toxic discourse. Analyzing and presenting these comments could inadvertently amplify inflammatory rhetoric or partisan vitriol present in the data, and generalizing the findings could reinforce stereotypes such as assumptions about the political ideologies of all golf enthusiasts or characterizations of users on specific platforms. To prevent this, the research will maintain academic objectivity, focusing on how audiences negotiate meaning and boundaries rather than validating, judging, or giving an unfiltered platform to extreme sentiments.
 
-**Privacy:**
-In terms of privacy, this study relies solely on public data, specifically user-generated comments from publicly accessible posts on Instagram, X, and YouTube. However, these datasets contain identifiable metadata. To mitigate the risk of identifying specific individuals, the data will be treated confidentially during analysis. This means removing all usernames and personally identifiable markers.
-
-**Harm:**
-In terms of the potential for harm, the intersection of politics and sports, especially involving a polarizing figure like Donald Trump, naturally elicits heated, partisan, and sometimes toxic discourse. There is a risk that analyzing and presenting these comments could inadvertently amplify inflammatory political rhetoric or partisan vitriol present in the data. Generalizing the findings could reinforce stereotypes, such as making assumptions about the political ideologies of all golf enthusiasts or characterizing users of specific platforms grandiosely. To prevent this, the research must maintain strict academic objectivity, focusing on how audiences negotiate meaning and boundaries, rather than validating, judging, or giving an unfiltered platform to extreme sentiments.
-
-**Bias:**
-In terms of biases, there is a change for it to exist within both the data itself and its interpretation. Data-wise, the datasets only capture the sentiments of a highly engaged minority who felt strongly enough to leave a comment, leaving the reactions of the "silent majority" of viewers completely unknown. Additionally, the baseline audience skews towards the specific demographics of golf fans and Bryson DeChambeau subscribers, meaning the reactions are not representative of the general public. Furthermore, platform algorithms heavily bias what comments are seen or engaged with, often rewarding the most controversial or polarizing takes. Interpreting this data also carries the risk of researcher bias; because political comments are often subjective, sarcastic, or culturally nuanced, we must be careful not to project our own political leanings or assumptions onto the data during coding and thematic analysis. Researchers must remain aware of their own biases and ensure interpretations are grounded in the data rather than personal perspectives.
+**Bias.** Bias can exist in both the data and its interpretation. The datasets capture only the sentiments of a highly engaged minority who felt strongly enough to leave a comment, leaving the reactions of the silent majority unknown. The baseline audience also skews toward golf fans and Bryson DeChambeau subscribers, so reactions are not representative of the general public, and platform algorithms heavily bias which comments are seen and engaged with. Interpreting this data carries the risk of researcher bias as well, because political comments are often subjective, sarcastic, or culturally nuanced; we will be careful not to project our own political leanings onto coding and thematic analysis, and we will keep interpretations grounded in the data.
 
 ---
 
 ## 7. Group Role Assignments
 
-Specify who is responsible for what. Titles are flexible, but responsibilities must be clear.
-
-
-| Role         | Group Member | Primary Responsibilities                                      |
-| ------------ | ------------ | ------------------------------------------------------------- |
-| Data Lead    | Hailee       | [e.g., Data cleaning, preprocessing, file management]         |
-| Methods Lead | Madeleine       | [e.g., Analysis design, tool implementation, documentation]   |
-| Theory Lead  | Kaylee       | [e.g., Literature integration, RQ refinement, interpretation] |
-|              |              |                                                               |
-
+| Role | Group Member | Primary Responsibilities |
+| --- | --- | --- |
+| Data Lead | Hailee | Data cleaning, preprocessing, file management |
+| Methods Lead | Madeleine | Analysis design, tool implementation, documentation |
+| Theory Lead | Kaylee | Literature integration, RQ refinement, interpretation |
 
 ---
 
 ## 8. Data Visualization Plan
 
-Create at least ONE data visualization that addresses your research question(s). This is a required deliverable due with your project plan.
+**Primary Goal.** Each visualization addresses a different piece of the audience reaction question: how comments are framed, how stance is expressed, and how engagement varies across blended versus non-blended content.
 
-**Primary Goal:**
-What story does your visualization tell? What specific question does it answer?
+**Visualization Description.** Two box plots show engagement around blended comments and the effect of explicit stance on engagement. Three bar graphs examine comment framing and platform comparison.
 
-Each visualization represents a different section of our analysis to outline how the audience reacts to political messaging in sport media. 
+**Design Rationale.** Bar graphs and box plots show distributions and comparisons across platforms cleanly, especially when comparing multiple platforms and variables. Z-scores and chi-square tests are used to quantify the distributions, and the visualizations make those statistical patterns easier to read in plain language. Breaking the analysis into separate visualizations rather than packing everything into one chart helps the reader engage with each piece of the dataset on its own terms.
 
-**Visualization Description:**
-Describe what type of chart/graph you're creating and what it will show. (e.g., "Bar chart comparing frequency of X vs. Y," "Line graph showing change over time," "Word cloud of most common themes")
-
-We have 2 box plots to demonstrate the engagement around blended comments and what effect having an explicit stance has on engagement. We also have three bar graphs that examines comment framing as well as platform comparison.
-
-**Design Rationale:**
-Why did you choose this visualization type? How does it clarify your argument or make your data more understandable?
-
-Bar graphs and box plots effectively show distributions and comparisons across platforms. in data when comparing mutiple platforms and variables. The use of Z-scores and Chi-Square tests help quantify the distrubutions with the visualizatiosn creating a simple way to envision the data even if the statistics get complicated. These visualizations make complex statistical patterns easier to interpret. Furthermore, breaking it down by section helps closely look and better engage with the dataset. 
-
-**Verification Methods:**How will you ensure your visualization accurately represents your data?
+**Verification Methods:**
 
 - Spot-checked calculations against source data
-- Verified percentages/totals add up correctly
-- Asked Cursor to make multiple iterations and reviews for style and accuracy fixes. The visualizations underwent 3-5 iterations each.
+- Verified percentages and totals add up correctly
+- Asked Cursor for multiple iterations and reviews for style and accuracy fixes (3–5 iterations per visualization)
 
-**The Visualization:**
-Embed your visualization here (as an image) or provide a link to the file.
+**Files.** All six figures are in the `Visualizations/` folder of this repository:
 
-Visualizations included in separate 'Visualizations' file in the repository.
+- `Figure1_StanceByPlatform.png`
+- `Figure2_FrameByPlatform.png`
+- `Figure3_StanceFrameAssociation.png`
+- `Figure4_Engagement_BlendedVsNon.png`
+- `Figure5_Engagement_ByStance.png`
+- `Figure6_Integrated_Findings.png`
 
-**Brief Interpretation (2-3 sentences):**
-What does this visualization show? What pattern or insight does it reveal?
-
-Each visualization as well as the combined image help us figure out the audience reaction to political messaging in sport media. Specifically it revaeals that blended comments perform better in engagement instead of ones that are explicitly political. Furthermore, different platforms are more political. These comments are not surrounding the video itself but reveal what the public thinks about blending politics and sport.
-
----
-
-## 9. AI-Assisted Work Documentation & Verification
-
-If you used AI tools (Antigravity, Cursor, ChatGPT, etc.) for any part of this plan, document your process and verification methods.
-
-**Tools Used:**
-Which AI tools/IDEs did you use, and for what purpose?
-
-We utilized Cursor and GitHub for Project 3. We used these to help develop and sort through our data and to store all of our work on the GitHub Repo.
-
-**Verification Methods:**How did you verify AI outputs were accurate and appropriate?
-
-- **Code Explanation:**
-  - I asked AI to explain what each line/section of code does
-  - I reviewed explanations and understand the logic
-  - I asked AI to download code and save for review if needed.
-- **Output Validation:**
-  - I verified outputs make logical sense given my data
-  - I compared AI results with what I know about my dataset
-- **Iterative Refinement:**
-  - Number of prompt iterations before getting usable output: 4
-  - Key refinements made: cleaned visualizations, clarified social context of comments repeatedly, asked if there were questions
-
-**Learning Reflection:**
-What did you learn from working with AI on this project? What did examining the AI-generated code/outputs teach you?
-
-We learned more how to communicate across different platforms and build collaborative tools for groups to use. We also learned that it takes multiple tries to get AI to produce the desired outcome.This process highlighted that while AI is a valuable analytical tool, human oversight is essential for ensuring accuracy and meaningful interpretation.
+**Brief Interpretation.** The combined set of visualizations indicates that blended comments perform better in engagement than comments that are explicitly political, and that some platforms are more political than others. These comments are not primarily about the video itself; they reveal what audiences think about the blending of politics and sport.
 
 ---
 
+## 9. AI-Assisted Work Documentation
+
+**Tools Used.** We used Cursor and GitHub for Project 3, primarily to develop and sort through the data and to coordinate work across the team via the repository.
+
+**Verification Methods:**
+
+- Code explanation: asked AI to explain each section of code, reviewed the explanations to confirm we understood the logic, and asked for code to be saved locally where helpful for review.
+- Output validation: verified outputs made logical sense given the data, and compared AI results against what we already knew about the dataset.
+- Iterative refinement: roughly four prompt iterations before getting usable output. Key refinements included cleaning the visualizations, clarifying the social context of comments, and asking the model whether anything was unclear.
+
+**Learning Reflection.** We learned more about how to coordinate across different platforms and build collaborative tools that a group can share. We also learned that getting AI to produce the desired outcome usually takes multiple tries, and that human oversight is essential for ensuring accuracy and meaningful interpretation. The session-by-session decisions are documented in `AI Verification/Comment_Selection_and_Analysis_Decisions.md`, and the full Cursor session transcript is in `AI Verification/Session_Transcript.md`.
