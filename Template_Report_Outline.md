@@ -1,8 +1,8 @@
-# Group Report Template (KIN 7518)
+# Project 3: Group Report
 
-**Title of Project:** ______________________________
-**Group Name:** _______
-**Members:** ______________________________
+**Title of Project:** Blending of Sports Entertainment and Political Messaging
+**Group Name:** CursorPros
+**Members:** Hailee Hernandez, Madeleine Durnin, Kaylee Hooper
 
 ---
 
