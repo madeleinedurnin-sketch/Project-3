@@ -16,13 +16,6 @@ Understanding these dynamics is critical for several reasons. Audience reactions
 
 # Related Literature
 
-**Theoretical Frameworks: Media Presentation and Public Debate**
-This project connects to core course concepts surrounding media presentation, public debate, and how social media platforms facilitate distinct cultural behaviors and norms. Our analysis relies on two primary sociological frameworks: Framing Theory and Public Sphere Theory. These frameworks help establish a foundational understanding of how audiences interpret and interact with blended content in contemporary media ecosystems.
-
-Framing Theory explains how the presentation of content inherently shapes audience interpretation. In the context of sports media, content is traditionally framed through a lens of athletic performance, skill, and entertainment. However, when political figures like Donald Trump are introduced, the frame inevitably expands or fractures. Audiences are forced to interpret the content—whether through a purely sports lens, a purely political lens, or a blended lens. This active negotiation of frames is central to understanding how a seemingly simple golf video can become a lightning rod for partisan debate.
-
-Public Sphere Theory complements this by highlighting how social media functions as a modern space for public debate and opinion formation. Historically, the public sphere was rooted in physical community spaces. Today, the digital public sphere allows for immediate, unmediated interactions between strangers. Social media platforms like YouTube, X, and Instagram are not merely distribution channels; they are active environments where public opinion is forged, tested, and polarized.
-
 **The Politicization of Non-Political Spaces**
 A critical dimension of our research question involves understanding why audiences react so strongly to political messaging within sports. Wang et al. (2024) provide crucial context for this phenomenon by exploring the partisan politicization of non-political online spaces. Through their analysis of digital reviews, they discovered that political discourse routinely infiltrates explicitly non-political domains. As they note, their findings provide "alarming empirical evidence for the politicization of non-political spaces" (Wang et al., 2024, p. 1).
 
