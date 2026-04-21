@@ -1,16 +1,12 @@
-\# Group Report Template (KIN 7518\)
+# Group Report Three
 
-\*\*Title of Project:\*\* B50 Cross-Platform Audience Analysis  
-\*\*Group Name:\*\* CursorPros  
-\*\*Members:\*\* Hailee Hernandez, Madeleine Durnin, Kaylee Hooper
+Title of Project: B50 Cross-Platform Audience Analysis  
+Group Name: CursorPros  
+Members: Hailee Hernandez, Madeleine Durnin, Kaylee Hooper
 
-\---
+---
 
-\#\# 1\. Introduction
-
-\* \*\*Framing:\*\* This project examines the intersection of sports and politics in contemporary media, specifically focusing on how public figures blur the boundaries between entertainment, athletics, and political discourse.  
-\* \*\*Relevance:\*\* In an increasingly partisan United States, politics is often viewed as a taboo topic in mixed company. As social media integrates further into everyday life, politicians have become more visible in sports media. This case explores the ongoing debate regarding whether sports should remain separate from politics or if the two can coexist, by analyzing highly outspoken audiences' reactions to a deliberate sport-political integration.  
-\* \*\*Research Question:\*\* How do audiences across YouTube, X, and Instagram negotiate and react to the blending of sports entertainment and political messaging in the context of Donald Trump's appearance on Bryson DeChambeau's "Break 50" series?
+# Introduction
 
 The rise of social media has fundamentally changed how audiences respond to sports content, transforming historically neutral athletic spaces into complex arenas for public discourse. This project examines the intersection of sports and politics in contemporary media, specifically focusing on how public figures increasingly blur the boundaries between entertainment, athletics, and political messaging. In an increasingly partisan United States, politics is often viewed as a taboo or highly sensitive topic in mixed company. As individuals have grown more outspoken—and at times hostile—about their political beliefs, the cultural expectation of keeping sports separate from politics is continually challenged. With the continued integration of social media into everyday life, politicians have become remarkably visible in the media content that athletes and fans actively create and consume.
 
@@ -18,7 +14,7 @@ Moments that deliberately blend sports and politics create entirely new digital 
 
 Understanding these dynamics is critical for several reasons. Audience reactions directly shape how sports, media, and politics intersect in the modern era. These public responses influence athlete reputation, fan perception, and broader media narratives. While blended content that introduces political figures into sports entertainment can dramatically increase overall engagement and viewership, it simultaneously carries a high risk of deep polarization and backlash. Consequently, investigating this integration helps sports managers, athletes, and organizations understand the inherent risks and strategic opportunities of producing political content. Driven by these factors, this research specifically asks: How do audiences across YouTube, X (formerly Twitter), and Instagram negotiate and react to the blending of sports entertainment and political messaging in the context of Donald Trump's appearance on Bryson DeChambeau's "Break 50" series?
 
-\#\# 2\. Related Literature (approx. 2 pages)
+# Related Literature (approx. 2 pages)
 
 \* \*\*\*New Section:\*\*\* This project connects to course concepts surrounding media presentation and public debate, specifically analyzing how social media platforms facilitate distinct platform cultures and behaviors.  
 \* \*\*Theory:\*\* The analysis utilizes \*\*Framing Theory\*\*, which explains how the presentation of content shapes audience interpretation (whether through a sports lens, a political lens, or a blended lens), and \*\*Public Sphere Theory\*\*, highlighting how social media functions as a space for public debate and opinion formation.  
@@ -26,7 +22,7 @@ Understanding these dynamics is critical for several reasons. Audience reactions
 
 This project connects to course concepts surrounding media presentation and public debate, specifically analyzing how social media platforms facilitate distinct platform cultures and behaviors. The analysis utilizes Framing Theory, which explains how the presentation of content shapes audience interpretation—whether through a sports lens, a political lens, or a blended lens. It also employs Public Sphere Theory, highlighting how social media functions as a space for public debate and opinion formation. \<span style="color: red;"\>\[Please insert connections to specific readings from the KIN 7518 course here, as they are missing from the project files.\]\</span\> While it is known that the US is highly polarized, this data adds authentic insight into how sport-political integration is received across different platform cultures (Instagram, X, YouTube) and what that reception means for athletes and organizations weighing similar collaborations.
 
-\#\# 3\. Data & Materials (approx. 1 page)
+# Data & Materials (approx. 1 page)
 
 \* \*\*Data Source:\*\* The dataset consists of user-generated comments across three platforms tied to Bryson DeChambeau's "Break 50" episode featuring Donald Trump (\`B50\_INS\_COMMENT.xlsx\`, \`B50\_X\_COMMENT.xlsx\`, and \`B50\_YT\_COMMENT.xlsx\`).  
 \* \*\*Scope:\*\* The analysis included all rows in each dataset to capture the full spectrum of audience reactions to this specific sport-political moment.  
@@ -34,7 +30,7 @@ This project connects to course concepts surrounding media presentation and publ
 
 The dataset consists of user-generated comments across three platforms tied to Bryson DeChambeau's "Break 50" episode featuring Donald Trump (\`B50\_INS\_COMMENT.xlsx\`, \`B50\_X\_COMMENT.xlsx\`, and \`B50\_YT\_COMMENT.xlsx\`). \<span style="color: red;"\>\[Please specify the dates of the data collection and the exact volume of data analyzed here, as this information is missing.\]\</span\> The analysis included all rows in each dataset to capture the full spectrum of audience reactions to this specific sport-political moment. During data cleaning, the comments were harmonized into shared analytic variables, specifically \`platform\` and \`comment\_text\`. Empty strings were retained but coded appropriately. To treat the data confidentially and protect user privacy, identifying metadata such as usernames was removed.
 
-\#\# 4\. Analytical Approach & Justification (approx. 2 pages)
+# Analytical Approach & Justification (approx. 2 pages)
 
 \* \*\*Method:\*\* A dictionary and social-context rule-based coding approach was used, followed by user-guided calibration. Comments were categorized by \*\*stance\*\* (\`pro-Trump\`, \`anti-Trump\`, \`neutral/non-political\`) and \*\*frame\*\* (\`sports/performance\`, \`politics/ideology\`, \`blended\`). \*\*Engagement\*\* was normalized within platforms (using z-scores of \`log1p(engagement\_raw)\`).  
 \* \*\*Justification:\*\* This operationalization was appropriate because it allowed us to preserve platform-native engagement signals while enabling cross-platform comparison. Non-parametric tests (Mann-Whitney U, Kruskal-Wallis) were chosen because engagement variables were highly skewed and zero-inflated.  
@@ -42,14 +38,14 @@ The dataset consists of user-generated comments across three platforms tied to B
 
 A dictionary and social-context rule-based coding approach was used, followed by user-guided calibration. Comments were categorized by stance (\`pro-Trump\`, \`anti-Trump\`, \`neutral/non-political\`) and frame (\`sports/performance\`, \`politics/ideology\`, \`blended\`). Engagement was normalized within platforms using z-scores of \`log1p(engagement\_raw)\`. This operationalization was appropriate because it allowed us to preserve platform-native engagement signals while enabling cross-platform comparison. Non-parametric tests (Mann-Whitney U, Kruskal-Wallis) were chosen because the engagement variables were highly skewed and zero-inflated. After initial script-based dictionary coding, iterative user calibration was applied to resolve ambiguous language, such as handling "MAGA" in a golf context versus isolated use, and determining sarcasm. Finally, statistical tests including Chi-square for distributions and Cliff's delta for engagement were run to compare framing patterns, stance associations, and engagement differentials.
 
-\#\# 5\. Results (approx. 1 page)
+# Results (approx. 1 page)
 
 \* \*\*Presentation:\*\* Results are presented across six key visualizations: Stance by Platform, Frame by Platform, Stance-Frame Association, Engagement (Blended vs. Non-blended), Engagement by Stance, and an Integrated Findings overview.  
 \* \*\*Description:\*\* The combined analysis indicates that blended comments (containing both sports and political cues) perform better in engagement than comments that are explicitly political alone. Furthermore, the distribution of frames and stances varies significantly across platforms, revealing that some platforms foster more political discourse than others. The comments broadly focus on the blending of politics and sport rather than just the video content itself.
 
 Results are presented across six key visualizations: Stance by Platform, Frame by Platform, Stance-Frame Association, Engagement (Blended vs. Non-blended), Engagement by Stance, and an Integrated Findings overview. The combined analysis indicates that blended comments containing both sports and political cues perform better in engagement than comments that are explicitly political alone. Furthermore, the distribution of frames and stances varies significantly across platforms, revealing that some platforms foster more political discourse than others. Broadly, the findings show that the comments focus heavily on the blending of politics and sport rather than just the video content itself.
 
-\#\# 6\. Interpretation & Discussion (approx. 2 pages)
+# Interpretation & Discussion (approx. 2 pages)
 
 \* \*\*Meaning:\*\* These results indicate that audiences actively negotiate meaning when consuming hybrid content, utilizing both political and sports frames. The higher engagement for blended comments suggests that sport-political integration does not just polarize; it actively drives public interaction and debate within the social media public sphere.  
 \* \*\*Connection:\*\* This links back to Framing Theory, demonstrating that audiences don't just accept a single frame but actively blend them. It reinforces Public Sphere Theory by showing varying platform cultures acting as distinct spaces for negotiation.  
@@ -57,7 +53,7 @@ Results are presented across six key visualizations: Stance by Platform, Frame b
 
 These results indicate that audiences actively negotiate meaning when consuming hybrid content, utilizing both political and sports frames. The higher engagement for blended comments suggests that sport-political integration does not just polarize; it actively drives public interaction and debate within the social media public sphere. This links back to Framing Theory, demonstrating that audiences don't just accept a single frame but actively blend them. It reinforces Public Sphere Theory by showing varying platform cultures acting as distinct spaces for negotiation. For sport managers and athletes, these findings suggest that collaborating with political figures generates high engagement but also polarized reactions. Success or damage control requires understanding platform-specific cultures, as an engagement metric on X may represent a fundamentally different audience reaction than on Instagram.
 
-\#\# 7\. Ethical Reflection & Limitations (approx. 1 page)
+# Ethical Reflection & Limitations (approx. 1 page)
 
 \* \*\*Limitations:\*\* The dataset is a static snapshot and cannot capture evolving public perception. Dictionary methods struggle with implied meaning, sarcasm, and inside jokes, which can lead to miscategorization. Cross-platform comparisons are complex due to different engagement architectures. Additionally, the data only reflects a highly engaged minority, skewing toward existing golf/DeChambeau fans.  
 \* \*\*Ethics:\*\* A major ethical challenge was the risk of amplifying inflammatory rhetoric or partisan vitriol present in the data. This was navigated by maintaining academic objectivity, focusing the analysis on how meaning is negotiated rather than validating extreme sentiments. To protect privacy, usernames and identifiable markers were removed during analysis.
