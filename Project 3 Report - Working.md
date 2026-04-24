@@ -100,12 +100,18 @@ To evaluate continuous engagement differences—such as whether blended comments
 **Qualitative Interpretive Layer**
 Finally, to ground the statistical findings in the reality of the discourse, an interpretive qualitative layer was added. Representative comment excerpts were selected from within each `stance x frame` matrix cell. To ensure quality and relevance, this selection prioritized higher-engagement comments, removed duplicates, and explicitly favored comments with clear lexical alignment to their assigned category. This mixed-methods triangulation ensures that the statistical trends we report are directly tethered to the lived language of the fans.
 
-# Results (approx. 1 page)
+# Results
 
-\* \*\*Presentation:\*\* Results are presented across six key visualizations: Stance by Platform, Frame by Platform, Stance-Frame Association, Engagement (Blended vs. Non-blended), Engagement by Stance, and an Integrated Findings overview.  
-\* \*\*Description:\*\* The combined analysis indicates that blended comments (containing both sports and political cues) perform better in engagement than comments that are explicitly political alone. Furthermore, the distribution of frames and stances varies significantly across platforms, revealing that some platforms foster more political discourse than others. The comments broadly focus on the blending of politics and sport rather than just the video content itself.
+The quantitative analysis yielded several findings surrounding platform distribution, frame-stance association, and engagement differentials.
 
-Results are presented across six key visualizations: Stance by Platform, Frame by Platform, Stance-Frame Association, Engagement (Blended vs. Non-blended), Engagement by Stance, and an Integrated Findings overview. The combined analysis indicates that blended comments containing both sports and political cues perform better in engagement than comments that are explicitly political alone. Furthermore, the distribution of frames and stances varies significantly across platforms, revealing that some platforms foster more political discourse than others. Broadly, the findings show that the comments focus heavily on the blending of politics and sport rather than just the video content itself.
+**Stance and Framing Distributions Across Platforms**
+Across all three platforms, `sports/performance` was the dominant interpretive frame, and the highest proportion of comments remained `neutral/non-political`. However, X (formerly Twitter) displayed a different distribution compared to YouTube and Instagram. A Chi-square test of independence revealed that X possessed a significantly larger share of both explicitly political stances and `politics/ideology` framing than the other two platforms. In terms of directional valence, `pro-Trump` frequency outpaced `anti-Trump` frequency across all three datasets.
+
+**The Association Between Stance and Frame**
+The data demonstrated a statistically significant association between political stance and interpretive frame. Neutral comments were overwhelmingly concentrated within the `sports/performance` frame. `Pro-Trump` comments were observed most frequently within the `blended` frame. Conversely, `anti-Trump` comments were most heavily concentrated in pure `politics/ideology` frames rather than the `sports/performance` or `blended` categories.
+
+**Engagement Differentials**
+A Mann-Whitney U test confirmed that `blended` comments—those containing both sports and political lexical cues—yielded statistically significantly higher normalized engagement than non-blended comments. Furthermore, a Kruskal-Wallis analysis of engagement by political stance, followed by post-hoc pairwise testing, revealed platform-specific patterns. On X, explicit political comments generated the highest engagement metrics. On YouTube and Instagram, comments classified under a mixed-sports framework performed the highest. Overall, explicitly political and blended comments achieved higher raw visibility metrics than neutral commentary.
 
 # Interpretation & Discussion (approx. 2 pages)
 
